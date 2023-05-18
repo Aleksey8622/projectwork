@@ -52,44 +52,37 @@ strong {
   text-decoration: none;
 }
 
-.text {
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  padding-top: 60px;
+}
+.heading__text {
   font-weight: 400;
   font-size: 68px;
   line-height: 100%;
   letter-spacing: -0.6px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #ffffff;
-  margin-top: 60px;
 }
-
-.top__title {
-  position: relative;
-}
-
-.img {
-  position: relative;
-  opacity: 90%;
-  z-index: 20;
-  width: 352px;
-  height: 122px;
-  right: 17px;
-}
-
-.text {
-  margin: auto;
-  position: absolute;
-  top: 24px;
-  right: 0;
-  left: 10px;
-  bottom: 0;
-  z-index: 20;
+.heading__subtext {
+  font-weight: 400;
   font-size: 68px;
-  line-height: 68px;
-  color: #ffffff;
+  line-height: 100%;
+  letter-spacing: -0.6px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
   transform: rotate(-3deg);
+  z-index: 20;
 }
-
-.title {
+.heading__img {
+  position: absolute;
+  left: 200.97px;
+  top: 30.32px;
+  opacity: 0.8;
+}
+.heading__title {
   font-weight: 400;
   font-size: 260px;
   line-height: 60%;
@@ -97,8 +90,7 @@ strong {
   font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
 }
-
-.subtitle {
+.heading__subtitle {
   font-style: normal;
   font-weight: 400;
   font-size: 68px;
@@ -106,6 +98,57 @@ strong {
   letter-spacing: -0.6px;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #FFFFFF;
-  margin-top: 43px;
-  padding-top: 21px;
+  padding: 43px 0px 27px;
+}
+.heading__paragraph {
+  width: 848px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
+}
+.heading__paragraph span {
+  background: #D97DFF;
+}
+
+.info {
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  padding: 64px 0px 0px;
+}
+.info__btn {
+  width: 324px;
+  height: 76px;
+  background: #FCDE00;
+  border-radius: 10px;
+  font-family: "MyFont";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.15px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #000000;
+}
+
+.little {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #E8BEFC;
+}
+
+.big {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  letter-spacing: -0.05px;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #FFFFFF;
 }/*# sourceMappingURL=style.css.map */
