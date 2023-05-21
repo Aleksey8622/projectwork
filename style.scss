@@ -366,4 +366,67 @@ strong {
     &__subheading span {
         color: #AD61FF;
     }
+
+    &__left {
+        display: flex;
+        gap: 40px;
+    }
+}
+
+.skills__text {
+    display: flex;
+    gap: 274px;
+    padding-bottom: 16px;
+
+    &_smail {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: -0.05px;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+        color: #FFFFFF;
+    }
+}
+
+
+.skills {
+    max-width: 387px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: -0.05px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FFFFFF;
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    letter-spacing: -0.05px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #AD61FF;
+    list-style-type: none;
+}
+
+
+
+.test {
+    width: 924px;
+    background: #1A1A1A;
+    border-radius: 5px;
+
+    & span {
+        width: 723px;
+        background: #4D4D4D;
+        border-radius: 5px;
+    }
 }
