@@ -283,6 +283,11 @@ strong {
   height: 72px;
   border-radius: 50%;
   z-index: 90;
+  transition: all 1.2s;
+}
+.foto__img-one:hover {
+  transform: scale(1.3);
+  z-index: 100;
 }
 .foto__img-two {
   position: absolute;
@@ -291,6 +296,11 @@ strong {
   height: 72px;
   border-radius: 50%;
   z-index: 80;
+  transition: all 1.2s;
+}
+.foto__img-two:hover {
+  transform: scale(1.3);
+  z-index: 100;
 }
 .foto__img-three {
   position: absolute;
@@ -299,6 +309,11 @@ strong {
   height: 72px;
   border-radius: 50%;
   z-index: 70;
+  transition: all 1.2s;
+}
+.foto__img-three:hover {
+  transform: scale(1.3);
+  z-index: 100;
 }
 .foto__img-four {
   position: absolute;
@@ -307,6 +322,11 @@ strong {
   height: 72px;
   border-radius: 50%;
   z-index: 60;
+  transition: all 1.2s;
+}
+.foto__img-four:hover {
+  transform: scale(1.3);
+  z-index: 100;
 }
 
 .program {

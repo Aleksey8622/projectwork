@@ -303,6 +303,12 @@ strong {
         height: 72px;
         border-radius: 50%;
         z-index: 90;
+        transition: all 1.2s;
+
+        &:hover {
+            transform: scale(1.3);
+            z-index: 100;
+        }
     }
 
     &__img-two {
@@ -312,6 +318,12 @@ strong {
         height: 72px;
         border-radius: 50%;
         z-index: 80;
+        transition: all 1.2s;
+
+        &:hover {
+            transform: scale(1.3);
+            z-index: 100;
+        }
     }
 
     &__img-three {
@@ -321,6 +333,12 @@ strong {
         height: 72px;
         border-radius: 50%;
         z-index: 70;
+        transition: all 1.2s;
+
+        &:hover {
+            transform: scale(1.3);
+            z-index: 100;
+        }
     }
 
     &__img-four {
@@ -330,6 +348,12 @@ strong {
         height: 72px;
         border-radius: 50%;
         z-index: 60;
+        transition: all 1.2s;
+
+        &:hover {
+            transform: scale(1.3);
+            z-index: 100;
+        }
     }
 }
 
